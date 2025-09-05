@@ -27,9 +27,37 @@ This repo is my way of practicing & sharing **interview-style problems** with **
 
 ---
 
-## 📅 Progress
-I upload **1 problem & solution daily** 🗓️.  
-Stay tuned for **new challenges every day**!
+## 📅 Progress Log
+
+### ✅ Day 1 – Pagination Component
+- Implemented a **product listing with pagination** using `useState`, `useEffect`.  
+- Features:
+  - Fetches 500 products from API
+  - Shows **10 products per page**
+  - Pagination with previous/next navigation
+  - Page number highlighting and disable states
+- Learned:
+  - API integration with `fetch`
+  - State management for pagination
+  - Conditional rendering (`loading`, `error`, `no products`)
+
+---
+
+### ✅ Day 2 – Autocomplete Component
+- Built an **autocomplete search** with debounce and caching.  
+- Features:
+  - Fetches recipes from API as you type
+  - **Debounce (400ms)** to optimize API calls
+  - **Caching** to avoid duplicate requests
+  - Results dropdown with hover effect
+- Learned:
+  - Debounce with `setTimeout` and cleanup in `useEffect`
+  - Implementing caching using `useState`
+  - Handling focus/blur to toggle dropdown
+
+---
+
+📌 **More components coming daily...** (filters, infinite scroll, sorting, cart system, etc.)
 
 ---
 
